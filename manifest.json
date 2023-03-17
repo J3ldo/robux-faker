@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Robux changer",
+    "action": {
+        "default_title": "RobloFetcher",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": ["scripting", "notifications", "storage"],
+    "content_scripts": [{
+        "matches": ["https://www.roblox.com/*"],
+        "js": ["main.js"],
+	    "run_at": "document_start"
+    },
+    {
+        "matches": ["https://www.roblox.com/transactions"],
+        "js": ["transactions.js"],
+	    "run_at": "document_start"
+    }]
+}
