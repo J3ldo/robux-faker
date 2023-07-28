@@ -1,4 +1,4 @@
-# Robux Faker
+# Robux Faker 💵
 Robux faker is a robux faker chrome extension made by: Jeldo#9587
 
 ## Screenshots
@@ -8,6 +8,8 @@ Robux faker is a robux faker chrome extension made by: Jeldo#9587
 * Fake the robux count
 * Fake the total robux when the robux icon is clicked
 * Fake the amount of incoming robux from sales of items
+* Fake the amount of robux bought
+* Fake the amount of robux pending
 * Fake the total robux gotten when changing the timespan
 
 ## How to install
